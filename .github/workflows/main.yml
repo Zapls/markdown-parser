@@ -32,3 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run JUnit
         run: java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+
+    # Runs a set of commands using the runners shell
+      - name: print hello
+        run: echo it worked
